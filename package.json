@@ -1,0 +1,35 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ],
+    "rules": {
+      "no-console": 2,
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "doubleQuote": true,
+          "endOfLine": "auto",
+          "tabWidth": 4
+        }
+      ]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "eslint-config-wesbos": "^4.3.2"
+  }
+}
